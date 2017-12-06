@@ -1,0 +1,32 @@
+{
+  "name": "composable-higher-order-functions-exercise",
+  "version": "0.0.1",
+  "description": "An exercise to create composable versions of filter, map and reduce.",
+  "scripts": {
+    "test": "tape 'tests/unit/**/*.spec.js' | tap-spec"
+  },
+  "keywords": [
+    "tdd",
+    "composable",
+    "higher order functions",
+    "filter",
+    "map",
+    "reduce",
+    "curried",
+    "compose",
+    "ramda",
+    "lodash-fp",
+    "test",
+    "tap",
+    "tape"
+  ],
+  "author": "Mark Salvin",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "tap-spec": "4.1.1",
+    "tape": "4.8.0"
+  }
+}
