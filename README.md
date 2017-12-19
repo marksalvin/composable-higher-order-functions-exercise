@@ -44,7 +44,7 @@ const usersOver50ToUpperCase = compose(
     filter(user => user.age > 50)
 )(users);
 
-console.log(usersOver50ToUpperCase); // ANDY, DAVE
+console.log(usersOver50ToUpperCase.toString()); // ANDY,DAVE
 ```
 
 If you spot an error, please do raise a PR. Good luck and have fun!
